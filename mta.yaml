@@ -34,7 +34,7 @@ modules:
       build-result: resources
       requires:
         - artifacts:
-            - hc450officesuppliesproducts.zip
+            # - hc450officesuppliesproducts.zip
           name: hc450officesuppliesproducts
           target-path: resources/
   - name: hc450officesuppliesproducts
