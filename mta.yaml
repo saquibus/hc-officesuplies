@@ -62,20 +62,10 @@ modules:
           url: '~{srv-url}'
     build-parameters:
           requires:
-          - name: hc-officesuplies-app
+          - name: hc450officesuppliesproducts
             artifacts:
               - ./*
             target-path: resources
-  - name: hc-officesuplies-app
-    type: html5
-    path: app
-    build-parameters:
-      build-result: dist
-      builder: custom
-      commands:
-        - npm install
-        - npm run build
-      supported-platforms: []
 resources:
   - name: hc-officesuplies-db
     type: com.sap.xs.hdi-container
