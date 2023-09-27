@@ -1,1 +1,17 @@
-{}
+{
+    "db": {
+        "binding": {
+            "type": "cf",
+            "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+            "org": "f4316d36trial",
+            "space": "dev",
+            "instance": "hc-officesuplies-db",
+            "key": "hc-officesuplies-db-key",
+            "resolved": false
+        },
+        "kind": "hana",
+        "vcap": {
+            "name": "db"
+        }
+    }
+}
