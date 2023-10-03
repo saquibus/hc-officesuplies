@@ -8,20 +8,20 @@
     "dependencies": {
         "@sap/cds": "^7",
         "@sap/cds-hana": "^2",
-        "@sap/hdbext": "^7.3.1",
+        "@sap/hdbext": "^8.0.0",
         "@sap/hdi-deploy": "^4.8.0",
         "@sap/xsenv": "^4.0.0",
-        "@sap/xssec": "^3.3.4",
+        "@sap/xssec": "^3.3.5",
         "express": "^4",
         "hdb": "^0.19.6",
         "passport": "^0.6.0",
-        "sap-hdbext-promisfied": "^2.202108.1"
+        "sap-hdbext-promisfied": "^2.202309.1"
     },
     "devDependencies": {
         "@cap-js/sqlite": "^1",
         "@sap/cds-dk": "^7",
-        "@sap/ux-specification": "^1.108.14",
-        "rimraf": "^3.0.2"
+        "@sap/ux-specification": "^1.108.15",
+        "rimraf": "^5.0.5"
     },
     "scripts": {
         "start": "cds-serve",
